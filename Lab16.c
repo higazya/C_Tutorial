@@ -54,10 +54,10 @@ void swap1(int x, int y)
 }
 void swap2(int* x, int* y) 
 {
-	int* temp;
-	*temp = *x;
+	int temp;
+	temp = *x;
 	*x = *y;
-	*y = *temp;
+	*y = temp;
 	printf("inside:num1 is %d\n",*x);
 	printf("inside:num2 is %d\n",*y);
 }
